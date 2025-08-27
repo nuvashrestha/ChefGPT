@@ -1,0 +1,38 @@
+:root {
+    /* Primary Colors */
+    --orange-primary: #f97316;
+    --orange-secondary: #ea580c;
+    --orange-light: #fef3e2;
+
+    /* Neutral Colors */
+    --dark-primary: #1a202c;
+    --dark-secondary: #374151;
+    --medium-gray: #4b5563;
+    --light-gray: #64748b;
+    --lighter-gray: #9ca3af;
+
+    /* Background Colors */
+    --bg-gradient-start: #f8fafc;
+    --bg-gradient-end: #e2e8f0;
+    --card-bg: #ffffff;
+    --input-bg: #f9fafb;
+    --ingredient-display-bg: #f8fafc;
+
+    /* Border Colors */
+    --border-default: #e5e7eb;
+    --border-input: #e5e7eb;
+    --border-dashed: #cbd5e1;
+    --border-hover: #f97316;
+
+    /* Accent Colors */
+    --youtube-red: #dc2626;
+    --youtube-red-hover: #b91c1c;
+    --success-focus: #f97316;
+
+    /* Shadow Colors */
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-medium: rgba(0, 0, 0, 0.1);
+    --shadow-orange: rgba(249, 115, 22, 0.1);
+    --shadow-orange-medium: rgba(249, 115, 22, 0.2);
+    --shadow-orange-strong: rgba(249, 115, 22, 0.3);
+}

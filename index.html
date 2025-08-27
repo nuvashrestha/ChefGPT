@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="header">ChefGPT</h1>
+    <p id="description">AI-Powered Recipe Generator - Turn your ingredients into culinary magic!</p>
+
+    <section id="userInputCard">
+        <form id="recipeForm">
+            <div class="form-group">
+                <label for="ingredients">Ingredients</label>
+                <input type="text" id="ingredients" name="ingredients"
+                    placeholder="e.g, Chicken, tomato, lettuce,  bread" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cuisine">Cuisine Type</label>
+                <select id="cuisine" name="cuisine">
+                    <option value="">Any Cuisine Type</option>
+                    <option value="american">American</option>
+                    <option value="thai">Thai</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="italian">Italian</option>
+                    <option value="indian">Indian</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="french">French</option>
+                    <option value="mediterranean">Mediterranean</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dietary">Dietary Restrictions</label>
+                <select id="dietary" name="dietary">
+                    <option value="">No Restrictions</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten-free">Gluten Free</option>
+                    <option value="dairy-free">Dairy Free</option>
+                    <option value="keto">Keto</option>
+                    <option value="paleo">Paleo</option>
+                    <option value="low-carb">Low Carb</option>
+                    <option value="nut-free">Nut Free</option>
+                </select>
+            </div>
+        </form>
+        <button type="submit">Generate Recipe</button>
+    </section>
+</body>
+</html>
