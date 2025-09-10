@@ -36,3 +36,13 @@
     --shadow-orange-medium: rgba(249, 115, 22, 0.2);
     --shadow-orange-strong: rgba(249, 115, 22, 0.3);
 }
+
+#generate-button {
+    background-color: var(--orange-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
